@@ -9,31 +9,9 @@
 
 Agent Safe provides a controlled security layer between AI agents and the tools, APIs, and systems they can access. Think of it as a permission system and approval workflow for AI—ensuring that autonomous agents operate within defined boundaries while maintaining human oversight.
 
-## 🎯 What Problem Does This Solve?
-
-AI agents are powerful but unpredictable. They can execute tools, call APIs, modify systems, and access sensitive data. Agent Safe gives you:
-
-- **Permission Management** — Control which tools agents can execute
-- **Policy Enforcement** — Define rules for what actions require approval
-- **Risk Controls** — Block or flag high-risk operations
-- **Approval Workflows** — Route dangerous actions to humans
-- **Audit Trails** — Track every action and decision
-- **Secure Execution** — Sandbox and validate tool calls
-
-Perfect for teams deploying AI agents in production who need safety without sacrificing autonomy.
-
 ## 🚀 Repository
 
 [https://github.com/hrudushibu/agent-safe](https://github.com/hrudushibu/agent-safe)
-
-## ✨ Core Features (Planned)
-
-- 🔐 **Tool & Action Permissions** — Fine-grained control over agent tool execution
-- 📋 **Policy-Based Access Control** — Declarative security policies
-- ⚠️ **Risk-Based Controls** — Automatic risk categorization
-- ✋ **Human Approval Workflows** — Route high-risk actions to reviewers
-- 📊 **Audit Logging** — Complete action history
-- 🧩 **Extensible Architecture** — Plugin system for custom policies
 
 ## 🛠️ Tech Stack
 
