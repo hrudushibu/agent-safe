@@ -1,71 +1,101 @@
-# agent-safe
+# Agent Safe
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org)
 
-> AI agent safety tooling built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
+> **Open-source security gateway for AI agents and MCP tools.**
 
-## Repository
+Agent Safe provides a controlled security layer between AI agents and the tools, APIs, and systems they can access. Think of it as a permission system and approval workflow for AI—ensuring that autonomous agents operate within defined boundaries while maintaining human oversight.
+
+## 🎯 What Problem Does This Solve?
+
+AI agents are powerful but unpredictable. They can execute tools, call APIs, modify systems, and access sensitive data. Agent Safe gives you:
+
+- **Permission Management** — Control which tools agents can execute
+- **Policy Enforcement** — Define rules for what actions require approval
+- **Risk Controls** — Block or flag high-risk operations
+- **Approval Workflows** — Route dangerous actions to humans
+- **Audit Trails** — Track every action and decision
+- **Secure Execution** — Sandbox and validate tool calls
+
+Perfect for teams deploying AI agents in production who need safety without sacrificing autonomy.
+
+## 🚀 Repository
 
 [https://github.com/hrudushibu/agent-safe](https://github.com/hrudushibu/agent-safe)
 
-## Tech Stack
+## ✨ Core Features (Planned)
 
-- [Next.js 16](https://nextjs.org) — React framework with App Router
-- [React 19](https://react.dev) — UI library
-- [TypeScript 5](https://www.typescriptlang.org) — Type safety
-- [Tailwind CSS 4](https://tailwindcss.com) — Utility-first styling
-- [shadcn/ui](https://ui.shadcn.com) — Component library
+- 🔐 **Tool & Action Permissions** — Fine-grained control over agent tool execution
+- 📋 **Policy-Based Access Control** — Declarative security policies
+- ⚠️ **Risk-Based Controls** — Automatic risk categorization
+- ✋ **Human Approval Workflows** — Route high-risk actions to reviewers
+- 📊 **Audit Logging** — Complete action history
+- 🧩 **Extensible Architecture** — Plugin system for custom policies
 
-## Getting Started
+## 🛠️ Tech Stack
+
+- **[Next.js 16](https://nextjs.org)** — App Router with React Server Components
+- **[React 19](https://react.dev)** — Modern React with concurrent features
+- **[TypeScript 5](https://www.typescriptlang.org)** — Type-safe development
+- **[Tailwind CSS 4](https://tailwindcss.com)** — Utility-first styling
+- **[shadcn/ui](https://ui.shadcn.com)** — Accessible component primitives
+
+## 📦 Getting Started
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/hrudushibu/agent-safe.git
 cd agent-safe
 
 # Install dependencies
 npm install
 
-# Set up environment
+# Set up environment variables
 cp .env.example .env.local
 
-# Start the dev server
+# Start the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) to access the application.
 
-## Project Structure
+## 🚧 Project Status
 
-```
-app/                  # Next.js App Router pages
-components/
-  app/                # AppHeader, AppFooter, AppLayout
-  console/            # ConsoleHeader, ConsoleSidebar, ConsoleLayout
-  ui/                 # shadcn/ui primitives
-lib/                  # Shared utilities
-```
+**Early Development** — This project is in active initial development. The core architecture and features are being designed and implemented. Expect significant changes as the project evolves.
 
-## Scripts
+Current progress:
+- ✅ Project scaffolding and build configuration
+- ✅ Basic component structure
+- 🚧 Core architecture design
+- ⏳ Feature implementation (upcoming)
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start development server |
-| `npm run build` | Production build |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+## 🗺️ Roadmap
 
-## Contributing
+See [ROADMAP.md](./ROADMAP.md) for the full development plan.
 
-Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+## 🤝 Contributing
 
-## Security
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+Early-stage contributions are especially valuable—help shape the architecture and core features.
+
+## 🔒 Security
 
 To report a vulnerability, see [SECURITY.md](./SECURITY.md) or email [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com).
 
-## License
+## 📬 Contact
+
+- **Email**: [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com)
+- **Issues**: [GitHub Issues](https://github.com/hrudushibu/agent-safe/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/hrudushibu/agent-safe/discussions)
+
+## 📄 License
 
 Licensed under the [Apache License 2.0](./LICENSE).
+
+---
+
+**Built with ❤️ for safer AI deployment**
