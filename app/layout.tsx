@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Agent Safe",
   description: "Open-source security gateway for AI agents and MCP tools.",
+  icons: {
+    icon: '/icons/app/icon.svg',
+    shortcut: '/icons/app/favicon.png',
+    apple: '/icons/app/icon.svg',
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
