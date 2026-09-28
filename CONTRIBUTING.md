@@ -42,6 +42,15 @@ refactor: code refactoring
 
 Open a [GitHub Issue](https://github.com/hrudushibu/agent-safe/issues) with steps to reproduce, expected behavior, and actual behavior.
 
+## Security
+
+To report a vulnerability, see [SECURITY.md](./SECURITY.md) or email [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com).
+
+## Contact
+
+- **Email**: [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com)
+- **Repository**: [https://github.com/hrudushibu/agent-safe](https://github.com/hrudushibu/agent-safe)
+
 ## Code of Conduct
 
 Please read and follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
